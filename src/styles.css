@@ -1,0 +1,17 @@
+/* styles.css */
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: rebeccapurple;
+  margin: 0px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.sideBar{
+ flex-grow: 1;
+  background-color: #b43333;
+  width: 250px;
+}
