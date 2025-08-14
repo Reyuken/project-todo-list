@@ -5,13 +5,34 @@ body {
   background-color: rebeccapurple;
   margin: 0px;
 }
-.container{
+#container{
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
-.sideBar{
- flex-grow: 1;
+#sideBar{
+  flex-grow: 1;
   background-color: #b43333;
   width: 250px;
+}
+#mainContent{
+  padding: 10px;
+}
+h3{
+  margin: 0px;
+}
+.book-card{
+  background-color: white;
+  border-radius: 5px;
+  padding:10px;
+  
+}
+.projBtn{
+  border-style: hidden;
+  background-color: #b43333;
+  
+}
+.projBtn:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
